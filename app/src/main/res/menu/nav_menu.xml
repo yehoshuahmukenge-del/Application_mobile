@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_dashboard"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:title="Tableau de bord" />
+    <item
+        android:id="@+id/nav_patients"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="Patients" />
+    <item
+        android:id="@+id/nav_medecins"
+        android:icon="@android:drawable/ic_menu_view"
+        android:title="Médecins" />
+    <item
+        android:id="@+id/nav_entreprises"
+        android:icon="@android:drawable/ic_menu_share"
+        android:title="Entreprises" />
+    <item
+        android:id="@+id/nav_paiements"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="Paiements" />
+    <item
+        android:id="@+id/nav_prescriptions"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="Prescriptions" />
+    <item
+        android:id="@+id/nav_examens"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Examens" />
+    <item
+        android:id="@+id/nav_stats"
+        android:icon="@android:drawable/ic_menu_compass"
+        android:title="Statistiques" />
+</menu>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CliniqueDOr">
+
+        <!-- Écran d'accueil avec le thème Splash spécifique -->
+        <activity
+            android:name=".WelcomeActivity"
+            android:exported="true"
+            android:theme="@style/Theme.App.Starting">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Activité principale (Dashboard) -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:theme="@style/Theme.CliniqueDOr" />
+
+        <!-- Gestion des Patients -->
+        <activity
+            android:name=".PatientListActivity"
+            android:exported="false"
+            android:label="@string/menu_patients" />
+
+        <activity
+            android:name=".AddPatientActivity"
+            android:exported="false"
+            android:label="@string/add_patient" />
+
+        <activity
+            android:name=".MedecinListActivity"
+            android:exported="false"
+            android:label="@string/menu_medecins" />
+
+        <activity
+            android:name=".AddMedecinActivity"
+            android:exported="false"
+            android:label="Nouveau Médecin" />
+
+        <activity
+            android:name=".AddEntrepriseActivity"
+            android:exported="false"
+            android:label="Nouvelle Entreprise" />
+
+        <activity
+            android:name=".AddPaymentActivity"
+            android:exported="false"
+            android:label="Nouveau Paiement" />
+
+        <activity
+            android:name=".EntrepriseListActivity"
+            android:exported="false"
+            android:label="@string/menu_entreprises" />
+
+        <activity
+            android:name=".PaymentActivity"
+            android:exported="false"
+            android:label="@string/menu_paiements" />
+
+        <activity
+            android:name=".PrescriptionListActivity"
+            android:exported="false"
+            android:label="Prescriptions" />
+
+        <activity
+            android:name=".ExamenListActivity"
+            android:exported="false"
+            android:label="Examens" />
+
+        <activity
+            android:name=".StatsActivity"
+            android:exported="false"
+            android:label="Statistiques" />
+
+        <activity
+            android:name=".AddPrescriptionActivity"
+            android:exported="false"
+            android:label="Nouvelle Prescription" />
+
+        <activity
+            android:name=".AddExamenActivity"
+            android:exported="false"
+            android:label="Nouvel Examen" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@android:drawable/ic_menu_today"
+            android:title="@string/menu_dashboard" />
+        <item
+            android:id="@+id/nav_patients"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="@string/menu_patients" />
+        <item
+            android:id="@+id/nav_entreprises"
+            android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="@string/menu_entreprises" />
+        <item
+            android:id="@+id/nav_medecins"
+            android:icon="@android:drawable/ic_menu_compass"
+            android:title="@string/menu_medecins" />
+    </group>
+
+    <item android:title="Soins et Médical">
+        <menu>
+            <item
+                android:id="@+id/nav_consultations"
+                android:icon="@android:drawable/ic_menu_edit"
+                android:title="@string/menu_consultations" />
+            <item
+                android:id="@+id/nav_examens"
+                android:icon="@android:drawable/ic_menu_search"
+                android:title="@string/menu_examens" />
+            <item
+                android:id="@+id/nav_prescriptions"
+                android:icon="@android:drawable/ic_menu_agenda"
+                android:title="@string/menu_prescriptions" />
+        </menu>
+    </item>
+
+    <item android:title="Administration">
+        <menu>
+            <item
+                android:id="@+id/nav_paiements"
+                android:icon="@android:drawable/ic_menu_save"
+                android:title="@string/menu_paiements" />
+            <item
+                android:id="@+id/nav_stats"
+                android:icon="@android:drawable/ic_menu_sort_by_size"
+                android:title="@string/menu_stats" />
+        </menu>
+    </item>
+
+</menu>

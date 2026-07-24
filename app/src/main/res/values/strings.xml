@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Clinique d\'Or</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">Tableau de bord</string>
+    <string name="dashboard_subtitle">Suivi en temps réel de votre activité</string>
+    <string name="welcome_message">Gestion des Statistiques</string>
+    <string name="stat_patients">Affiliés</string>
+    <string name="stat_medecins">Médecins</string>
+    <string name="stat_consultations">Consultations</string>
+    <string name="stat_revenue">Revenus Totaux</string>
+    <string name="recent_activities">Activités récentes</string>
+    <string name="activity_new_patient">Nouvel affilié enregistré</string>
+    <string name="activity_payment_received">Paiement reçu récemment</string>
+
+    <!-- Navigation Strings -->
+    <string name="menu_dashboard">Tableau de bord</string>
+    <string name="menu_patients">Patients</string>
+    <string name="menu_entreprises">Entreprises</string>
+    <string name="menu_medecins">Médecins</string>
+    <string name="menu_consultations">Consultations</string>
+    <string name="menu_examens">Examens</string>
+    <string name="menu_prescriptions">Prescriptions</string>
+    <string name="menu_paiements">Paiements</string>
+    <string name="menu_stats">Statistiques</string>
+
+    <!-- Legacy Nav (for backward compatibility if used) -->
+    <string name="nav_dashboard">Tableau de bord</string>
+    <string name="nav_patients">Gestion des Affiliés</string>
+    <string name="nav_medecins">Corps Médical</string>
+    <string name="nav_paiements">Comptabilité</string>
+
+    <!-- Dashboard Stats -->
+    <string name="stat_patients_today">Patients aujourd\'hui</string>
+    <string name="stat_consultations_month">Consultations (Mois)</string>
+    <string name="currency_fc"> FC</string>
+
+    <!-- Actions -->
+    <string name="add_patient">Ajouter un affilié</string>
+    <string name="save">Enregistrer</string>
+    <string name="btn_save">Enregistrer</string>
+    <string name="cancel">Annuler</string>
+
+    <!-- Hints Patient -->
+    <string name="hint_nom">Nom</string>
+    <string name="hint_prenom">Prénom</string>
+    <string name="hint_sexe">Sexe</string>
+    <string name="hint_date_naissance">Date de naissance</string>
+    <string name="hint_telephone">Téléphone</string>
+    <string name="hint_adresse">Adresse</string>
+    <string name="hint_entreprise">Entreprise</string>
+</resources>
